@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e70101;
+}
+
+.logo {
+    height: 75px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #00ff9d;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search_button{
+    height: 50px;
+}
